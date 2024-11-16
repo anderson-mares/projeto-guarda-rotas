@@ -10,8 +10,9 @@
 }
 
 .carousel-slide img {
-  width: 100%;
+  width: 50px;
   flex-shrink: 0;
+  height: 50px;
 }
 
 @keyframes slide {
