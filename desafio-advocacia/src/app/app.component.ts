@@ -9,7 +9,7 @@ import { AboutUsComponent } from "./about-us/about-us.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, CarouselComponent, ContactFormComponent, AboutUsComponent],
+  imports: [CommonModule, HeaderComponent, CarouselComponent, ContactFormComponent, AboutUsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
