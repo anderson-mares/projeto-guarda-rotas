@@ -4,12 +4,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #333;
+  background-color: #9da9b4;
   color: #fff;
 }
 
 .logo img {
   max-height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
 .nav-links a {
@@ -22,4 +27,20 @@
 
 .nav-links a:hover {
   color: #ffdd57;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
+  /* Cor de hover */
 }
