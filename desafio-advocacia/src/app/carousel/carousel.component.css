@@ -1,4 +1,3 @@
-/* carousel.component.css */
 .carousel {
   width: 100%;
   overflow: hidden;
@@ -9,9 +8,35 @@
   animation: slide 15s infinite;
 }
 
-.carousel-slide img {
-  width: 5%;
+.carousel-item {
+  position: relative;
   flex-shrink: 0;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+  /* Defina a altura desejada */
+  object-fit: cover;
+  /* Garante que a imagem cubra a área definida */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  /* Fundo levemente transparente */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 @keyframes slide {
@@ -28,6 +53,6 @@
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateX(-300%);
   }
 }
