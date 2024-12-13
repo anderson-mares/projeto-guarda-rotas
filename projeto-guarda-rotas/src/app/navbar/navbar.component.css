@@ -1,0 +1,7 @@
+.navbar {
+  position: sticky;
+  /* ou fixed, dependendo do design */
+  top: 0;
+  z-index: 1000;
+  /* Garante que o navbar fique acima de outros elementos */
+}
